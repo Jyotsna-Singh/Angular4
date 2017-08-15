@@ -24,10 +24,10 @@ export class UserComponent implements OnInit {
   ngOnInit() {
   	console.log('ngOnInit ran...');
   	this.name = 'Jyotsna Singh';
-  	this.salary = '15,00,000/- 15LPA';
+  	this.salary = '100K USD';
   	this.age = 23;
   	this.address = {
-  		street:'2704, FF, Sec-46',
+  		street:'Home',
   		city: 'Gurgaon',
   		state: 'HR'
   	}
